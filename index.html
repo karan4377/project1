@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My CSS Website</title>
+
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+ <body>
+     <nav>
+    <ul class="topnav" id="dropdownClick">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+      <li class="topnav-right"><a href="#signup">Sign In</a></li>
+      <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+      <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+    </ul>
+  </nav>
+
+<script>
+    function dropdownMenu() {
+        var x = document.getElementById("dropdownClick");
+        if (x.className === "topnav") {
+        x.className += " responsive";   
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+    <div class = "container" id = "section-1-gradient">
+
+    <div class="row">
+        <div class = "col-6">
+        <div class = "leftside-col">
+                <div>
+                    <h1 class  = "large"> Welcome to Kastylistic </h1>
+                    <h1 class  = "large"> Made for Creative Designers </h1>
+                </div>
+
+                <form>
+                    <div>
+                    <h2>Username</h2>
+                    <input class = "inputbox" type = "text" placeholder = "Username">
+                    <h2>Password</h2>
+                    <input class = "inputbox" type = "password" placeholder="Password">
+                </div>
+                </form>
+        </div>
+    </div>
+        <div class = "col-6">
+            <div class = "rightside-col">
+            <div class = "videoContainer">
+                <iframe  src="https://www.youtube.com/embed/KzU_zh-I3dQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+        </div>
+
+    </div>
+</div> 
+
+
+<header>
+<h1 class = "section2header">The Standard of Awsomeness</h1>
+</header>
+
+<div class = "container">
+    <div class = "row">
+        <div class = "col-4">
+            <div class = "box">
+                <div class="icon">
+                     <img src = "images/devIcon.png">
+                    </div>  
+                    <label>Chat With Me</label>   
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam blanditiis voluptatum omnis ab non ipsum assumenda qui illum fugit, impedit in autem temporibus dolorum eius, harum ipsa quisquam magnam illo.</p>   
+            </div>
+        </div>
+
+        <div class = "col-4">
+            <div class = "box">
+                <div class="icon">
+                     <img src = "images/devIcon.png">
+                    </div>  
+                    <label>Learn Design</label>   
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam blanditiis voluptatum omnis ab non ipsum assumenda qui illum fugit, impedit in autem temporibus dolorum eius, harum ipsa quisquam magnam illo.</p>   
+            </div>
+        </div>
+
+        <div class = "col-4">
+            <div class = "box">
+                <div class="icon">
+                     <img src = "images/devIcon.png">
+                    </div>  
+                    <label>Build an Empire</label>   
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam blanditiis voluptatum omnis ab non ipsum assumenda qui illum fugit, impedit in autem temporibus dolorum eius, harum ipsa quisquam magnam illo.</p>   
+            </div>
+        </div>
+
+    </div>
+</div>
+
+ 
+<div calss = "row">
+    <div class = "col-12">
+      <button class = "learnmore">Learn More</button>  
+    </div>
+</div>
+
+
+<hr>
+<div class  = "container">
+    <div class = "row">
+    <div class = "col-7">
+        <div class="text">
+        <article>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum dolores nam quasi perspiciatis officia quod libero a, quis numquam neque soluta suscipit ullam? Beatae ea, aut dolor sunt autem assumenda.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum dolores nam quasi perspiciatis officia quod libero a, quis numquam neque soluta suscipit ullam? Beatae ea, aut dolor sunt autem assumenda.
+            </p>
+        </article>
+    </div>
+    </div>
+    <div class = "col-5">
+        <div class="icon">
+    <img src="images/iOS_Slope.png" alt="">
+</div>
+    </div>
+    </div>
+</div>
+
+<footer class = "footerinfo">
+
+    <div class = "row">
+        <div class = "col-3 mobilestack">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blogs</li>
+                <li>Career</li>
+            </ul>
+        </div>
+
+        <div class = "col-3 mobilestack">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blogs</li>
+                <li>Career</li>
+            </ul>
+        </div>
+
+        <div class = "col-3 mobilestack">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blogs</li>
+                <li>Career</li>
+            </ul>
+        </div>
+
+        <div class = "col-3 mobilestack">
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blogs</li>
+                <li>Career</li>
+            </ul>
+        </div>
+    </div>
+
+    
+</footer>
+
+
+ </body>
+<html>
